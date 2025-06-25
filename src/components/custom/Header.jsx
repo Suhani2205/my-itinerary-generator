@@ -1,0 +1,20 @@
+import React from 'react'
+import { Button } from '../ui/button'
+
+function Header() {
+  // const user = JSON.parse(localStorage.getItem('user'));
+
+  // useEffect(()=>{
+  //   console.log(user);
+  // },[])
+  return (
+    <div className='p-3 shadow-sm flex justify-between items-center px-5'>
+        <img src="/logo.svg" alt="" />
+        <div>
+            <Button>Sign Up</Button>
+        </div>
+    </div>
+  )
+}
+
+export default Header
