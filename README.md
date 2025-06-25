@@ -15,11 +15,11 @@ It uses:
 
 | Landing Page | Sign-In Page |
 |--------------|--------------|
-| ![Landing Page](./assets/ss1.png) | ![Sign-In Page](./assets/ss2.png) |
+| ![Landing Page](./src/assets/ss1.png) | ![Sign-In Page](./src/assets/ss2.png) |
 
 | Input Page | Output Page |
 |------------|------------|-------------|
-| ![Input Page](./assets/ss3.png) | ![Output Page](./assets/ss5.png) |
+| ![Input Page](./src/assets/ss3.png) | ![Output Page](./src/assets/ss4.png) |
 
 ---
 
