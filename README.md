@@ -18,10 +18,9 @@ It uses:
 | ![Landing Page](./src/assets/ss1.png) | ![Sign-In Page](./src/assets/ss2.png) |
 
 | Input Page | Output Page |
-|------------|------------|-------------|
+|------------|-------------|
 | ![Input Page](./src/assets/ss3.png) | ![Output Page](./src/assets/ss4.png) |
 
----
 
 ## 📥 Features
 
