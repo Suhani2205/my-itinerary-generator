@@ -140,4 +140,4 @@ App will be available at: [http://localhost:5173](http://localhost:5173)
 
 ## 🙋‍♀️ Author
 
-Made with ❤️ by [@Suhani2205](https://github.com/Suhani2205)
+Made by [@Suhani2205](https://github.com/Suhani2205)
