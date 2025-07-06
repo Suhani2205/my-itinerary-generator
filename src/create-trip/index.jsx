@@ -72,8 +72,8 @@ function CreateTrip() {
     toast("Form generated.");
     setLoading(true);
     const FINAL_PROMPT = AI_PROMPT
-      // .replace('{location}', formData?.location?.label)
-       .replace('{location}', formData?.location)
+      .replace('{location}', formData?.location?.label)
+      //  .replace('{location}', formData?.location)
       .replace('{totalDays}', formData?.noOfDays)
       .replace('{traveler}', formData?.traveler)
       .replace('{budget}', formData?.budget)
@@ -125,7 +125,7 @@ const SaveAiTrip = async (TripData) => {
       <p className='mt-3 text-gray-500 text-xl'>Just provide some basic information, and our trip planner will generate a customized itinerary based n your preferences.</p>
       <div className='mt-20 flex flex-col gap-9'>
         <div>
-{/* 
+
           <h2 className='text-xl my-3 font-medium'>What is destination of choice?</h2>
           <GooglePlacesAutocomplete
             apiKey={import.meta.env.VITE_GOOGLE_PLACE_API_KEY}
@@ -134,18 +134,8 @@ const SaveAiTrip = async (TripData) => {
               onChange: (v) => { setPlace(v); handleInputChange('location', v) },
             }}
           />
-           */}
+          
 
-            {/* --- after (plain text input) --- */}
-          <h2 className="text-xl my-3 font-medium">What is destination of choice?</h2>
-          <Input
-            placeholder="e.g. Paris, France"
-            value={place}
-            onChange={e => {
-            setPlace(e.target.value);               // keep local state
-            handleInputChange('location', e.target.value); // store in formData
-          }}
-          />
         </div>
         <div>
           <h2 className='text-xl my-3 font-medium'>How many days are you planning trip?</h2>
