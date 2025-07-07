@@ -17,9 +17,14 @@ It uses:
 |--------------|--------------|
 | ![Landing Page](./src/assets/ss1.png) | ![Sign-In Page](./src/assets/ss2.png) |
 
-| Input Page | Output Page |
-|------------|-------------|
+| Create Trip page | View Trip Page |
+|------------------|----------------|
 | ![Input Page](./src/assets/ss3.png) | ![Output Page](./src/assets/ss4.png) |
+
+| My-Trips Page | Footer Section |
+|---------------|----------------|
+| ![My-Trips Page](./src/assets/ss5.png) | ![Footer Section](./src/assets/ss6.png) |
+
 
 
 
