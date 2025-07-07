@@ -11,6 +11,18 @@ function Hero() {
         <Link to={'/create-trip'}>
             <Button>Get Started, It's Free</Button>        
         </Link>
+
+        {/* <img src = '/landing.png' ></img> */}
+
+<div className="flex justify-center mt-16">
+  <img
+    src="/landing.png"
+    alt="View Trip Page Screenshot"
+    className="w-[800px] max-w-full h-auto border-4 border-black rounded-2xl shadow-xl"
+  />
+</div>
+
+
     </div>
   )
 }
